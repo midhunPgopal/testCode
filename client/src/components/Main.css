@@ -1,0 +1,26 @@
+.Container {
+    height: 100%;
+    width: 100%;
+    margin: 30px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.ViewButton {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+}
+.ViewButton:hover {
+    background: rgb(243, 241, 241);
+}
+.DataGrid {
+    margin: 60px 0px 0px 0px;
+    width: 95%;
+    height: 60vh;
+}
